@@ -1,0 +1,72 @@
+.first {
+    width: 400px;
+    margin-left: 170px;
+    background-color: rgb(22, 22, 22);
+    border: 2px solid rgb(73, 70, 70);
+    border-radius: 30px;
+}
+
+.second {
+    width: 400px;
+    margin-left: 1000px;
+    background-color: rgb(22, 22, 22);
+    border: 2px solid rgb(73, 70, 70);
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    font-size: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+.img {
+    border-radius: 7%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(97, 91, 91);
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: none;
+    margin-top: 40px;
+}
+
+.firsticon {
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.secondicon {
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.thirdicon {
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.firsticon:hover {
+    background-color: yellowgreen;
+    border-radius: 20%;
+}
+
+.secondicon:hover {
+    background-color: yellowgreen;
+    border-radius: 20%;
+}
+
+.thirdicon:hover {
+    background-color: rgb(255, 157, 0);
+    border-radius: 20%;
+}
