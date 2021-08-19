@@ -1,0 +1,44 @@
+body {
+    background-color: #252422;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 642px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid white;
+    width: 500px;
+}
+
+.second-input {
+    margin-top: 40px;
+    margin-left: 642px;
+    width: 500px;
+}
+
+.no-outline:focus {
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    vertical-align: text-top;
+    transform: translate3d(0, -4px, 0)
+}
