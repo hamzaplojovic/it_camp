@@ -1,0 +1,44 @@
+header {
+    color: white;
+    background-color: yellowgreen;
+    border: white 5px solid;
+    height: 90px;
+}
+
+nav {
+    color: white;
+    background-color: yellowgreen;
+    border: white 5px solid;
+    height: 600px;
+    width: 250px;
+}
+
+article {
+    color: white;
+    background-color: yellowgreen;
+    border: white 5px solid;
+    width: 1150px;
+    height: 600px;
+}
+
+aside {
+    color: white;
+    background-color: yellowgreen;
+    border: white 5px solid;
+    width: 200px;
+}
+
+footer {
+    color: white;
+    background-color: yellowgreen;
+    border: white 5px solid;
+    height: 79px;
+}
+
+.row {
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
