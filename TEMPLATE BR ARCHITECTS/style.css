@@ -1,0 +1,123 @@
+.navbar {
+    display: flex;
+    height: 40px;
+}
+
+li {
+    margin-left: 5ch;
+    margin-right: 5ch;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0ch;
+}
+
+.main-li {
+    margin-right: 55ch;
+    font-weight: 700;
+}
+
+.img {
+    margin-left: 3ch;
+}
+
+.projects {
+    height: 600px;
+}
+
+h2 {
+    margin-left: 5ch;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-bottom: 2ch;
+    padding-top: 5ch;
+    border-bottom: rgba(211, 211, 211, 0.425) 0.5px solid;
+}
+
+.images {
+    display: flex;
+}
+
+.images {
+    width: 363px;
+    height: 242px;
+    margin-left: 2ch;
+}
+
+.about {
+    height: 650px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 5ch;
+    line-height: 20px;
+}
+
+.image-description {
+    display: flex;
+}
+
+.h1 {
+    margin-left: 2.5ch;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+.h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+    margin-left: 3.5ch;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: 70px;
+}
+
+input {
+    padding: 8px;
+    width: 90%;
+    overflow: visible;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    height: 25px;
+    margin-left: 7ch;
+}
+
+.darken {
+    filter: saturate(0%);
+}
+
+button {
+    margin-left: 7ch;
+    margin-top: 5ch;
+    margin-bottom: 2ch;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
