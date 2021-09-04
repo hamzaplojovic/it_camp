@@ -1,0 +1,27 @@
+.main-div {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+@keyframes Animacija {
+    0% {
+        background-color: darkcyan;
+    }
+    50% {
+        background-color: rgb(77, 199, 199);
+    }
+    100% {
+        background-color: rgb(32, 53, 53);
+    }
+}
+
+.div-2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 150px;
+    background-color: rgb(0, 80, 100);
+    animation-name: Animacija;
+    animation-duration: 4s;
+}
