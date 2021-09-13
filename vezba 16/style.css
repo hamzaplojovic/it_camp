@@ -1,0 +1,107 @@
+.pricing{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+
+}
+
+#first-button{
+    background-color: rgb(96, 96, 252);
+    color: white;
+}
+
+
+.div-button{
+    border:none;
+    padding: 2px;
+    color: rgb(96, 96, 252);
+    background-color: white;
+    
+
+}
+
+.onfocus-buttons{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    border: 1px solid rgb(96, 96, 255);
+    width: 110px;
+    height: 30px;
+    margin: auto;
+}
+
+.card1{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    width:20%;
+    height: 40%;
+    margin-top:70px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+
+.heading-card{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.heading2-card{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checked{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: 500;
+}
+
+.button{
+    width: 95%;
+    height: 35px;
+    background-color: rgb(54, 54, 236);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.paragraph{
+    font-size: 15px;
+    color: gray;
+}
+
+.cards{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-div{
+    border:none
+}
+
+@media screen and (max-width: 600px) {
+    main-div{
+        flex-direction: column;   }
+    
+}

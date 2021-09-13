@@ -1,0 +1,435 @@
+body{
+    background-image: linear-gradient(rgba(65, 63, 63, 0.582),transparent),url("amy-hirschi-szrJ3wjzOMg-unsplash.jpg");
+    background-attachment: fixed;
+    background: linear-gradient();
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    transition: all 0.5s;
+    z-index: 997;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: rgb(129, 125, 125) 1px solid;
+    position: sticky;
+    top: 0;
+    color:white;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav{
+    width: 40%;
+}
+
+.select{
+    appearance: none;
+}
+
+.image-text{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.about{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 15%;
+    margin-top:250px;
+    color: rgb(75, 72, 72);
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.hr{
+    width: 90px;
+    height: 1px;
+    color: green;
+    background-color: green;
+    margin: 0;
+}
+
+.about-description{
+    color: gray;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.checked-text{
+    display: flex;
+}
+
+.two-divs-about{
+    display: flex;
+}
+
+.first-div-desc{
+    color: gray;
+    padding: 10px;
+}
+
+.learn-more-text{
+    padding-top: 10px;
+    color: gray;
+    padding-left: 150px;
+    line-height: 1.5;
+}
+
+.button{
+    color: #009961;
+    border:1px solid #009961;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 145px;
+    transition: all 0.5s ease-in;
+}
+
+.button:hover{
+    background-color: #009961;
+    color: white;
+}
+
+.for-separate{
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    background-color: white;
+    top: 400px;
+}
+
+.services{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    margin-top:0px;
+    color: rgb(75, 72, 72);
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.first-row-cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.first-card{
+    box-shadow: 3px 3px 5px 5px #88888863;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in;
+}
+
+.first-card:hover{
+    color: white;
+    background-color: #88888863;
+    border-bottom: #88888863 solid 7px; 
+    transform: translateY(-2%);   
+}
+
+.what-we-do{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    margin-top:0px;
+    color: rgb(75, 72, 72);
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.what-we-do-image{
+    width: 70%;
+    height: 97%;
+    margin-left: 200px;
+
+}
+
+.first-row-companies{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    padding-top:50px;
+    color: rgb(75, 72, 72);
+    padding-left: 10px;
+    width: 100%;
+    padding-bottom:0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.second-row-companies{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    margin-top:0px;
+    color: rgb(75, 72, 72);
+    padding-left: 10px;
+    width: 100%;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company1{
+    width: 20%;
+    height: 20%;
+    margin-top: 45px;
+    transition: all 0.5s ease-in;
+}
+
+.company2{
+    width: 20%;
+    height: 20%;
+    margin-top: 70px;
+    transition: all 0.5s ease-in;
+
+}
+.company3{
+    width: 20%;
+    height: 20%;
+    margin-top: 45px;
+    transition: all 0.5s ease-in;
+
+
+}.company4{
+    width: 20%;
+    height: 20%;
+    margin-top: 50px;
+    transition: all 0.5s ease-in;
+    
+
+}
+
+.company5{
+    width: 20%;
+    height: 20%;
+    margin-top: 90px;
+    transition: all 0.5s ease-in;
+}
+
+.company1:hover{
+    transform: translateY(-5%);
+    transform: translateY(5%);
+    transform: rotate(720deg);
+
+}
+.company2:hover{
+    transform: translateY(-5%);
+    transform: translateY(5%);
+    transform: rotate(720deg);
+}.company3:hover{
+    transform: translateY(-5%);
+    transform: translateY(5%);
+    transform: rotate(720deg);
+}.company4:hover{
+    transform: translateY(-5%);
+    transform: translateY(5%);
+    transform: rotate(720deg);
+}.company5:hover{
+    transform: translateY(-5%);
+    transform: translateY(5%);
+    transform: rotate(720deg);
+}
+
+
+.portfolio{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    margin-top:0px;
+    color: rgb(75, 72, 72);
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+.app2{
+    width: 30%;
+    height: 30%;
+    margin-left: 20px;
+    transition: all 0.8s ease-in;
+}
+
+.second-row-images{
+    margin-top: 30px;
+}
+
+.app1,
+.app2:hover{
+    transform: translateY(-10%);
+}
+
+.pricing{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    margin-top:0px;
+    color: rgb(75, 72, 72);
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0;
+
+}
+
+.pricing-desc{
+    padding-left: 70px;
+}
+
+.card1,.card2,.card3{
+    box-shadow: 3px 3px 5px 5px #88888863;
+    height: 400px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.price{
+    color: #009961;
+}
+
+.contact{
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    color:white;
+    width: 100%;
+    height: 60%;
+    margin-top:0px;
+    color: rgb(75, 72, 72);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.contact-text{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 50px;
+}
+
+.location,.email,.call{
+    display: flex;
+    padding-top: 50px;
+}
+
+.location{
+    margin-top: 30px;
+}
+
+.contact-information{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form{
+    padding-top: 90px;
+}
+
+.name, .email1{
+    width: 300px;
+    height: 40px;
+}
+
+.email1{
+    margin-left: 10px;
+}
+.subject{
+    margin-top:7px;
+    width: 647px;
+    height: 40px;
+}
+
+.textarea{
+    width: 647px;
+    height: 120px;
+    margin-top: 14px;
+}
+
+#form-button{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 300px;
+}
+
+.contact-icon{
+    width: 40px;
+    height: 40px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
