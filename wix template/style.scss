@@ -1,0 +1,17 @@
+body{
+    header{
+        display: flex;
+        nav{
+            width: 100%;
+            display: flex;
+            .name-nav{
+                display: flex;
+                flex-direction: column;
+            }
+            .list-nav{
+                display: flex;
+                list-style-type: none;
+            }
+        }
+    }
+}

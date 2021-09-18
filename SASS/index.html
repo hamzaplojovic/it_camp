@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="about-div">
+      <h1 class="name-h1">Brandon Johnson</h1>
+      <h3>I'm Designer</h3>
+      <img
+        src="icons8-double-down-96.png"
+        class="arrow-icon"
+        onclick="smoothScroll(document.getElementById('second'))"
+      />
+    </div>
+    <div id="second" class="about" data-aos="fade-up" data-aos-duration="1000">
+      <h1 style="padding-top: 70px">About</h1>
+      <hr />
+      <div class="about-desc">
+        <h3>
+          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+          aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+          quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+          fugiat sit in iste officiis commodi quidem hic quas.
+        </h3>
+        <div class="flex">
+          <div class="image">
+            <img
+              src="https://bootstrapmade.com/demo/templates/MyResume/assets/img/profile-img.jpg"
+            />
+          </div>
+          <div class="about-text">
+            <h1 class="what-am-i">UI/UX Designer & Web Developer.</h1>
+            <h5 class="lorem">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              culpa temporibus consequuntur inventore hic quaerat, nostrum
+              veritatis fugiat ratione reiciendis ullam iure pariatur alias
+              eligendi, dolorum vitae aut qui delectus.
+            </h5>
+            <div class="flex">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+                class="first-row-about"
+              >
+                <div class="bhirtday">
+                  <h1 class="bhirtday-h1">Bhirtday</h1>
+                  <h3 class="bhirtday-h3">1 May 1995</h3>
+                </div>
+                <div class="website">
+                  <h1 class="website-h1">Website</h1>
+                  <h3 class="website-h3">www.example.com</h3>
+                </div>
+                <div class="phone">
+                  <h1 class="phone-h1">Phone</h1>
+                  <h3 class="phone-h3">+123 456 7890</h3>
+                </div>
+              </div>
+              <div
+                data-aos="zoom-in"
+                class="second-row-about"
+                data-aos-duration="2000"
+              >
+                <div class="bhirtday">
+                  <h1 class="bhirtday-h1">Age</h1>
+                  <h3 class="bhirtday-h3">30</h3>
+                </div>
+                <div class="website">
+                  <h1 class="website-h1">Degree</h1>
+                  <h3 class="website-h3">Master</h3>
+                </div>
+                <div class="phone">
+                  <h1 class="phone-h1">Freelance</h1>
+                  <h3 class="phone-h3">Available</h3>
+                </div>
+              </div>
+            </div>
+            <h5 class="lorem">
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio
+              vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor
+              incidunt officia tempore. Et eius omnis. Cupiditate ut dicta
+              maxime officiis quidem quia. Sed et consectetur qui quia
+              repellendus itaque neque. Aliquid amet quidem ut quaerat
+              cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium
+              dolores.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="facts">
+      <h1 style="padding-top: 0px">Facts</h1>
+      <hr />
+      <h3 class="lorem">
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+        aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+        quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.
+      </h3>
+      <div class="counter">
+        <div class="count" id="value">232</div>
+        <div class="count">521</div>
+        <div class="count">1463</div>
+        <div class="count">25</div>
+      </div>
+      <div class="counter-desc">
+          <div class="count-desc">Happy Clients</div>
+          <div class="count-desc">Projects</div>
+          <div class="count-desc">Hours of Support</div>
+          <div class="count-desc">Awards</div>
+      </div>
+    </div>
+  
+
+
+
+
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      window.smoothScroll = function (target) {
+        var scrollContainer = target;
+        do {
+          //find scroll container
+          scrollContainer = scrollContainer.parentNode;
+          if (!scrollContainer) return;
+          scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do {
+          //find the top of target relatively to the container
+          if (target == scrollContainer) break;
+          targetY += target.offsetTop;
+        } while ((target = target.offsetParent));
+
+        scroll = function (c, a, b, i) {
+          i++;
+          if (i > 30) return;
+          c.scrollTop = a + ((b - a) / 30) * i;
+          setTimeout(function () {
+            scroll(c, a, b, i);
+          }, 20);
+        };
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+      };
+    </script>
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <script>
+      $(document).ready(function () {
+        var counters = $(".count");
+        var countersQuantity = counters.length;
+        var counter = [];
+
+        for (i = 0; i < countersQuantity; i++) {
+          counter[i] = parseInt(counters[i].innerHTML);
+        }
+
+        var count = function (start, value, id) {
+          var localStart = start;
+          setInterval(function () {
+            if (localStart < value) {
+              localStart++;
+              counters[id].innerHTML = localStart;
+            }
+          }, 3);
+        };
+
+        for (j = 0; j < countersQuantity; j++) {
+          count(0, counter[j], j);
+        }
+      });
+    </script>
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+    <!-- =================================================================================================================================-->
+  </body>
+</html>

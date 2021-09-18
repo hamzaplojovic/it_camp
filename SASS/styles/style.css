@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#535050), to(transparent)), url("/Users/hamzaplojovic/Desktop/IT/IT-CAMP/SASS/daniel-vargas-ehk4TMTVDjo-unsplash (1).jpg");
+  background-image: linear-gradient(#535050, transparent), url("/Users/hamzaplojovic/Desktop/IT/IT-CAMP/SASS/daniel-vargas-ehk4TMTVDjo-unsplash (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.about-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-div .arrow-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 150px;
+}
+
+.name-h1 {
+  margin-top: 200px;
+}
+
+.about {
+  background-color: white;
+  margin-top: 550px;
+  padding-bottom: 300px;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about h1 {
+  padding-top: 20px;
+  color: gray;
+}
+
+.about hr {
+  width: 20%;
+}
+
+.about h3 {
+  color: gray;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 50px;
+  text-align: center;
+}
+
+.about .about-desc {
+  padding: 50px;
+}
+
+.about .about-desc .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .image img {
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+}
+
+.about .about-desc .flex .about-text .what-am-i {
+  color: #554f4f;
+  margin-left: 50px;
+}
+
+.about .about-desc .flex .about-text .lorem {
+  color: gray;
+  font-weight: 100;
+  margin-left: 50px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.about .about-desc .flex .about-text .first-row-about .bhirtday {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .about-text .first-row-about .bhirtday .bhirtday-h1 {
+  font-size: 15px;
+  color: #524c4c;
+}
+
+.about .about-desc .flex .about-text .first-row-about .bhirtday .bhirtday-h3 {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #524c4c;
+  font-weight: 100;
+}
+
+.about .about-desc .flex .about-text .first-row-about .website {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .about-text .first-row-about .website .website-h1 {
+  color: #524c4c;
+  font-size: 15px;
+}
+
+.about .about-desc .flex .about-text .first-row-about .website .website-h3 {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #524c4c;
+  font-weight: 100;
+}
+
+.about .about-desc .flex .about-text .first-row-about .phone {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .about-text .first-row-about .phone .phone-h1 {
+  font-size: 15px;
+  color: #524c4c;
+}
+
+.about .about-desc .flex .about-text .first-row-about .phone .phone-h3 {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #524c4c;
+  font-weight: 100;
+}
+
+.about .about-desc .flex .about-text .second-row-about .bhirtday {
+  margin-top: 25px;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .about-text .second-row-about .bhirtday .bhirtday-h1 {
+  font-size: 15px;
+  color: #524c4c;
+}
+
+.about .about-desc .flex .about-text .second-row-about .bhirtday .bhirtday-h3 {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #524c4c;
+  font-weight: 100;
+}
+
+.about .about-desc .flex .about-text .second-row-about .website {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .about-text .second-row-about .website .website-h1 {
+  color: #524c4c;
+  font-size: 15px;
+}
+
+.about .about-desc .flex .about-text .second-row-about .website .website-h3 {
+  padding-top: 10px;
+  font-size: 15px;
+  color: #524c4c;
+  font-weight: 100;
+}
+
+.about .about-desc .flex .about-text .second-row-about .phone {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-desc .flex .about-text .second-row-about .phone .phone-h1 {
+  font-size: 15px;
+  color: #524c4c;
+}
+
+.about .about-desc .flex .about-text .second-row-about .phone .phone-h3 {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #524c4c;
+  font-weight: 100;
+}
+
+.facts {
+  color: gray;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 100px;
+}
+
+.facts .lorem {
+  color: gray;
+  font-weight: 100;
+  margin-left: 50px;
+  font-style: italic;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.facts .counter {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.facts .counter .count {
+  background-color: #4d4dc7;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.facts .counter-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 17px;
+}
+
+.facts .counter-desc .count-desc {
+  margin-left: 206px;
+}
+
+.portfolio{
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
+  color:white;
+  width: 100%;
+  height: 60%;
+  margin-top:0px;
+  color: rgb(75, 72, 72);
+  padding-top: 50px;
+  padding-left: 70px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.portfolio .portfolio-desc h1{
+  color: #4d4dc7;
+}
+/*# sourceMappingURL=style.css.map */

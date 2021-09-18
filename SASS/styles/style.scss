@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(83, 80, 80),transparent),url("/Users/hamzaplojovic/Desktop/IT/IT-CAMP/SASS/daniel-vargas-ehk4TMTVDjo-unsplash (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.about-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .arrow-icon{
+        width: 100px;
+        height: 100px;
+        margin-top: 150px;
+    }
+}
+
+.name-h1{
+    margin-top: 200px;
+}
+
+.about{
+    background-color: white;
+    margin-top: 550px;
+    padding-bottom: 300px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        padding-top: 20px;
+        color: gray;
+    }
+    hr{
+        width: 20%;
+    }
+    h3{
+        color: gray;
+        font-size: 17px;
+        font-weight: 100;
+        padding: 50px;
+        text-align: center
+    }
+    .about-desc{
+        padding: 50px;
+        
+        .flex{
+            display: flex;
+            .image{
+                img{
+                    margin-top: 100px;
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+            .about-text{
+                .what-am-i{
+                    color: rgb(85, 79, 79);
+                    margin-left: 50px;
+
+                }
+                .lorem{
+                    color: gray;
+                    font-weight: 100;
+                    margin-left: 50px;
+                    font-style: italic;
+                    margin-top: 30px;
+                }
+                .first-row-about{
+                    .bhirtday{
+                        margin-top: 30px;
+                        margin-left: 50px;
+                        display: flex;
+                        .bhirtday-h1{
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                        }
+                        .bhirtday-h3{
+                            padding-top:  20px;
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                            font-weight: 100;
+                        }
+                    }
+                    .website{
+                        margin-left: 50px;
+                        display: flex;
+                        .website-h1{
+                            color: rgb(82, 76, 76);
+                            font-size: 15px;
+                        }
+                        .website-h3{
+                            padding-top:  20px;
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                            font-weight: 100;
+                        }
+                    }
+                    .phone{
+                        margin-left: 50px;
+                        display: flex;
+                        .phone-h1{
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                        }
+                        .phone-h3{
+                            padding-top:  20px;
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                            font-weight: 100;
+                        }
+                    }
+                }
+                .second-row-about{
+                    .bhirtday{
+                        margin-top: 25px;
+                        margin-left: 50px;
+                        display: flex;
+                        .bhirtday-h1{
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                        }
+                        .bhirtday-h3{
+                            padding-top:  20px;
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                            font-weight: 100;
+                        }
+                    }
+                    .website{
+                        margin-left: 50px;
+                        display: flex;
+                        .website-h1{
+                            color: rgb(82, 76, 76);
+                            font-size: 15px;
+                        }
+                        .website-h3{
+                            padding-top:  10px;
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                            font-weight: 100;
+                        }
+                    }
+                    .phone{
+                        margin-left: 50px;
+                        display: flex;
+                        .phone-h1{
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                        }
+                        .phone-h3{
+                            padding-top:  20px;
+                            font-size: 15px;
+                            color: rgb(82, 76, 76);
+                            font-weight: 100;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+.facts{
+    color: gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    .lorem{
+        color: gray;
+        font-weight: 100;
+        margin-left: 50px;
+        font-style: italic;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .counter{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        .count{
+            background-color: rgb(77, 77, 199);
+            color: white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            padding-top: 40px;
+        }
+    }
+    .counter-desc{
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        font-size: 17px;
+        .count-desc{
+            margin-left:206px;
+        }
+    }
+}
+.portfolio{
+    .portfolio-desc{
+        h1{
+            color: rgb(77, 77, 199);
+        }
+    }
+}

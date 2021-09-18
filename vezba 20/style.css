@@ -1,0 +1,108 @@
+button{
+    background: linear-gradient(0.25turn, #5fb4d8, rgb(113, 221, 113));
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 160px;
+    height: 40px;
+    box-shadow: 0px 1px 10px 0px  #5fb4d898;
+    transition: 0.5s ease-in all;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    width: 20%;
+}
+
+.button2{
+    background: linear-gradient(0.25turn, #dcff42, rgb(221, 55, 55));
+    box-shadow: 0px 1px 30px 0px  #c0040436;
+
+}
+
+.button2:hover{
+    color: linear-gradient(0.25turn, #dcff42, rgb(221, 55, 55));
+    background-color: white;
+}
+
+.button3{
+    background: linear-gradient(0.25turn, #7886ff, rgb(15, 0, 231));
+    box-shadow: 0px 1px 30px 0px  #3c04c098;
+
+}
+
+.button4{
+    background: linear-gradient(0.25turn, #e969ee, rgb(233, 205, 81));
+    box-shadow: 0px 1px 30px 0px  #7504c098;
+
+}
+.button5{
+    background: linear-gradient(0.25turn, #2c8546, rgb(47, 233, 22));
+    box-shadow: 0px 1px 30px 0px  #04ec8b98;
+
+}
+
+.button6{
+    background: linear-gradient(0.25turn, #2c8546, rgb(229, 255, 0));
+    box-shadow: 0px 1px 30px 0px  #ece80498;
+
+}
+
+
+.button7{
+    background: linear-gradient(0.25turn, #6e65f7, rgb(69, 5, 245));
+    box-shadow: 0px 1px 30px 0px  #7504c098;
+
+}
+.button8{
+    background: linear-gradient(0.25turn, #262727, rgb(101, 104, 100));
+    box-shadow: 0px 1px 30px 0px  #33363598;
+
+}
+
+.button9{
+    background: linear-gradient(0.25turn, #45c1e7, rgb(16, 135, 165));
+    box-shadow: 0px 0px 30px 0px  #04ecec65;;
+}
+
+
+.button10{
+    background: linear-gradient(0.25turn, #f14ff7, rgb(233, 205, 81));
+    box-shadow: 0px 0px 30px 0px  #7504c098 ;
+
+}
+
+.button11{
+    background: linear-gradient(0.25turn, #e44d5a, rgb(241, 103, 184));
+    box-shadow: 0px 0px 30px 0px  #ece80498;
+
+}
+
+
+.first-row-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-top: 50px
+}
+
+.second-div{
+    margin-top: 70px;
+}
+
+
+@media screen and (max-width:600px){
+    .first-row-buttons{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    button{
+        margin-top: 50px;
+        width: 90%;
+        height: 50px;
+    }
+}
+    
